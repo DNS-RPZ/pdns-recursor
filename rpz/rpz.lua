@@ -13,4 +13,4 @@ rpzFile("/etc/powerdns/rpz/typosquatting.mypdns.cloud.rpz")
 rpzFile("/etc/powerdns/rpz/coinblocker.srv.rpz")
 rpzFile("/etc/powerdns/rpz/drop.ip.dtq.rpz")
 rpzFile("/etc/powerdns/rpz/torblock.srv.rpz")
-rpzFile("/etc/powerdns/rpz/urlhaus.abuse.ch.rpz")
+-- rpzFile("/etc/powerdns/rpz/urlhaus.abuse.ch.rpz") -- Requires IPv6
