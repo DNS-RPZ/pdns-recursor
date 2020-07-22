@@ -1,77 +1,16 @@
 rpzFile("/etc/powerdns/rpz/my-rules.rpz")
 
-rpzMaster(
-        {"95.216.209.53:53",
-        "116.203.32.67:53"
-        },
-        "adult.mypdns.cloud",
-        {refresh="60",
-        axfrTimeout="600"
-        }
-) 
 
-rpzMaster(
-        {"95.216.209.53:53",
-        "116.203.32.67:53"
-        },
-        "adware.mypdns.cloud",
-        {refresh="60",
-        axfrTimeout="600"
-        }
-)
+rpzFile("/etc/powerdns/rpz/adult.mypdns.cloud.rpz")
+rpzFile("/etc/powerdns/rpz/adware.mypdns.cloud.rpz")
+rpzFile("/etc/powerdns/rpz/gambling.mypdns.cloud.rpz")
+rpzFile("/etc/powerdns/rpz/pirated.mypdns.cloud.rpz")
+rpzFile("/etc/powerdns/rpz/rpz.mypdns.cloud.rpz")
+rpzFile("/etc/powerdns/rpz/spam.mypdns.cloud.rpz")
+rpzFile("/etc/powerdns/rpz/tracking.mypdns.cloud.rpz")
+rpzFile("/etc/powerdns/rpz/typosquatting.mypdns.cloud.rpz")
 
-rpzMaster(
-        {"95.216.209.53:53",
-        "116.203.32.67:53"
-        },
-        "gambling.mypdns.cloud",
-        {refresh="60",
-        axfrTimeout="600"
-        }
-)
-
-rpzMaster(
-        {"95.216.209.53",
-        "116.203.32.67"},
-        "pirated.mypdns.cloud",
-        {refresh="600",
-        axfrTimeout="600"
-        }
-)
-
-rpzMaster(
-        {"95.216.209.53",
-        "116.203.32.67"},
-        "rpz.mypdns.cloud",
-        {zoneSizeHint="650000",
-        refresh="600",
-        axfrTimeout="600"
-        }
-)
-
-rpzMaster(
-        {"95.216.209.53",
-        "116.203.32.67"},
-        "spam.mypdns.cloud",
-        {refresh="600",
-        axfrTimeout="600"
-        }
-)
-
-rpzMaster(
-        {"95.216.209.53",
-        "116.203.32.67"},
-        "tracking.mypdns.cloud",
-        {refresh="600",
-        axfrTimeout="600"
-        }
-)
-
-rpzMaster(
-        {"95.216.209.53",
-        "116.203.32.67"},
-        "typosquatting.mypdns.cloud",
-        {refresh="600",
-        axfrTimeout="600"
-        }
-)
+rpzFile("/etc/powerdns/rpz/coinblocker.srv.rpz")
+rpzFile("/etc/powerdns/rpz/drop.ip.dtq.rpz")
+rpzFile("/etc/powerdns/rpz/torblock.srv.rpz")
+rpzFile("/etc/powerdns/rpz/urlhaus.abuse.ch.rpz")
