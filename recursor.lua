@@ -1,2 +1,2 @@
  
-dofile("/etc/powerdns/recursor.d/rpz.lua")
+dofile("/etc/powerdns/rpz/rpz.lua")
