@@ -8,5 +8,5 @@ $ORIGIN localhost.
 
 ; QNAME Trigger NXDOMAIN Action
 ; kills whole domain
-pornhub.com      CNAME .
-*.pornhub.com    CNAME .
+google.com      CNAME .
+*.google.com    CNAME .
