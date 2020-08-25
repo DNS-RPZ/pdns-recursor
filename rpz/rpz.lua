@@ -1,7 +1,7 @@
 -- In lua you uses double dashes to out comment
 -- This file gives you the power to only enable
 -- the zones you like to subscribe to.
-
+-- See also Learn Lua in 15 Minutes >> https://www.mypdns.org/P7
 rpzFile("/etc/powerdns/rpz/my-rules.rpz")
 
 
