@@ -11,7 +11,7 @@ dofile("/etc/powerdns/rpz/coinblocker.mypdns.cloud.rpz")
 dofile("/etc/powerdns/rpz/gambling.mypdns.cloud.rpz")
 dofile("/etc/powerdns/rpz/malicious.mypdns.cloud.rpz")
 dofile("/etc/powerdns/rpz/pirated.mypdns.cloud.rpz")
--- dofile("/etc/powerdns/rpz/redirector.mypdns.cloud.rpz")
+-- dofile("/etc/powerdns/rpz/redirector.mypdns.cloud.rpz") -- This is outcommented at it would breake a lot for many users, such as twitter.
 dofile("/etc/powerdns/rpz/rpz.mypdns.cloud.rpz")
 dofile("/etc/powerdns/rpz/spam.mypdns.cloud.rpz")
 dofile("/etc/powerdns/rpz/spyware.mypdns.cloud.rpz")
